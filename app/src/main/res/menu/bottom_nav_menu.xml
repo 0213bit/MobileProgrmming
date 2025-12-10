@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myTeamFragment"
+        android:icon="@drawable/ic_myteam"
+        android:title="My Team" />
+    <item
+        android:id="@+id/resultsFragment"
+        android:icon="@drawable/ic_results"
+        android:title="경기 결과" />
+    <item
+        android:id="@+id/standingsFragment"
+        android:icon="@drawable/ic_standings"
+        android:title="경기 순위" />
+    <item
+        android:id="@+id/friendsFragment"
+        android:icon="@drawable/ic_friends"
+        android:title="친구" />
+</menu>

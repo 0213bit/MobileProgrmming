@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "27495194378",
+    "project_id": "kickkick-9298b",
+    "storage_bucket": "kickkick-9298b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27495194378:android:28ef992c87c462d671e4f3",
+        "android_client_info": {
+          "package_name": "com.example.kickkick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnC2NkLwJDh2wPkG5nklWzj_gOkOLaXTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

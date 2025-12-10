@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/myTeamFragment"> <fragment
+    android:id="@+id/myTeamFragment"
+    android:name="com.example.kickkick.MyTeamFragment"
+    android:label="MyTeam"
+    tools:layout="@layout/fragment_my_team" />
+
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.kickkick.ResultsFragment"
+        android:label="경기 결과"
+        tools:layout="@layout/fragment_results" />
+
+    <fragment
+        android:id="@+id/standingsFragment"
+        android:name="com.example.kickkick.StandingsFragment"
+        android:label="경기 순위"
+        tools:layout="@layout/fragment_standings" />
+
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.example.kickkick.FriendsFragment"
+        android:label="친구"
+        tools:layout="@layout/fragment_friends" />
+</navigation>
