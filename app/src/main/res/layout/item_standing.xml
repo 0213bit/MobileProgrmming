@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
-    android:padding="12dp"
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="16dp"
     android:gravity="center_vertical"
     android:background="?android:attr/selectableItemBackground">
 
@@ -14,14 +15,15 @@
         android:layout_height="wrap_content"
         android:text="1"
         android:textStyle="bold"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
 
     <ImageView
         android:id="@+id/iv_team_logo"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         tools:src="@mipmap/ic_launcher"/>
 
     <TextView
@@ -29,28 +31,43 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Team Name"
+        android:text="Manchester City"
         android:ellipsize="end"
         android:maxLines="1"
-        android:paddingStart="8dp"
-        android:textStyle="bold"/>
+        android:textSize="14sp"
+        android:textColor="@android:color/black"/>
 
     <TextView
-        android:id="@+id/tv_played"
-        android:layout_width="30dp"
+        android:id="@+id/tv_won"
+        android:layout_width="25dp"
         android:layout_height="wrap_content"
-        android:text="PL"
+        android:text="20"
         android:gravity="center"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="12sp"/>
+        android:textSize="13sp"
+        android:textColor="#4CAF50"/> <TextView
+    android:id="@+id/tv_draw"
+    android:layout_width="25dp"
+    android:layout_height="wrap_content"
+    android:text="5"
+    android:gravity="center"
+    android:textSize="13sp"
+    android:textColor="@android:color/darker_gray"/>
 
     <TextView
-        android:id="@+id/tv_points"
-        android:layout_width="40dp"
+        android:id="@+id/tv_lost"
+        android:layout_width="25dp"
         android:layout_height="wrap_content"
-        android:text="PTS"
+        android:text="1"
         android:gravity="center"
-        android:textStyle="bold"
-        android:textColor="@android:color/holo_blue_dark"/>
+        android:textSize="13sp"
+        android:textColor="#F44336"/> <TextView
+    android:id="@+id/tv_points"
+    android:layout_width="35dp"
+    android:layout_height="wrap_content"
+    android:text="65"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="14sp"
+    android:textColor="@android:color/black"/>
 
 </LinearLayout>
